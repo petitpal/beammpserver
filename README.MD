@@ -10,7 +10,7 @@ Use either `./run-debug.sh` to run a container image and launch the shell (so yo
 These scripts connect a `serverconfig` folder to a container volume, which allows you to add mods to your server. Please note the following:
 
 ## First time running the server
-- the server the beammp server will run for 10 seconds and then shutdown
+- the beammp server will run for 10 seconds and then shutdown
 - the startup script will copy the `ServerConfig.toml` file that the server generated into your `/serverconfig` folder. It is import that you follow the beammp documentation steps to generate an auth key and update this into your config file (see: [https://docs.beammp.com/server/create-a-server/#2-obtaining-an-authentication-key](https://docs.beammp.com/server/create-a-server/#2-obtaining-an-authentication-key))
 - the startup script will also create a `cars` and `maps` folder. Add any car or map zip files you wish to install into your server into these folders
 
