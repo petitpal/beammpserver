@@ -1,4 +1,4 @@
-# beammp server DOckerfile
+# beammp server Dockerfile
 Allows you to run a beammp server easily - for a LAN party, or to host your own in the cloud
 
 # Building
