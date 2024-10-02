@@ -1,0 +1,1 @@
+docker container run -it -p 30814:30814 --entrypoint sh -v .\serverconfig:/serverconfig beamng-server
