@@ -1,2 +1,2 @@
-# docker build -t beamng-server:latest . --progress=plain --no-cache
-docker build -t beamng-server:latest .
+# docker build -t petitpal/beammpserver:latest . --progress=plain --no-cache
+docker build -t petitpal/beammpserver:latest .

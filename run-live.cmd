@@ -1,1 +1,1 @@
-docker container run -it -p 30814:30814 -v .\serverconfig:/serverconfig beamng-server
+docker container run -it -p 30814:30814 -v .\serverconfig:/serverconfig petitpal/beammpserver:latest
