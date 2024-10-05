@@ -13,7 +13,7 @@ RUN apt-get update && `
     apt-get install -y --no-install-recommends procps liblua5.3-0 curl ca-certificates
 
 # download and install beam server
-RUN curl -L --output /server/BeamMP-Server.debian.12.x86_64 https://github.com/BeamMP/BeamMP-Server/releases/download/v3.4.1/BeamMP-Server.debian.12.x86_64 && `
+RUN curl -L --output /server/BeamMP-Server.debian.12.x86_64 https://github.com/BeamMP/BeamMP-Server/releases/download/v3.6.0/BeamMP-Server.debian.12.x86_64 && `
     chmod +x /server/BeamMP-Server.debian.12.x86_64
 
 # add a game server user (beammpadmin) and group (for perms)
